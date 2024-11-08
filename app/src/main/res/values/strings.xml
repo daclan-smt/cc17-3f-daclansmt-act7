@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">TagaytayTayo</string>
+
+    <string-array name="categories">
+        <item>Coffee Shops</item>
+        <item>Restaurants</item>
+        <item>Kid-Friendly Places</item>
+        <item>Parks</item>
+        <item>Shopping Centers</item>
+    </string-array>
+</resources>

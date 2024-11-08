@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/introFragment">
+
+    <fragment
+        android:id="@+id/introFragment"
+        android:name="com.example.cityapp.IntroFragment"
+        android:label="Intro"
+        tools:layout="@layout/fragment_intro">
+        <action
+            android:id="@+id/action_introFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.cityapp.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_homeFragment_to_coffeeShopsFragment"
+            app:destination="@id/coffeeShopsFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_restaurantsFragment"
+            app:destination="@id/restaurantsFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_parksFragment"
+            app:destination="@id/parksFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_shoppingCentersFragment"
+            app:destination="@id/shoppingCentersFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/coffeeShopsFragment"
+        android:name="com.example.cityapp.CoffeeShopsFragment"
+        android:label="Coffee Shops"
+        tools:layout="@layout/fragment_coffee_shops" />
+
+    <fragment
+        android:id="@+id/restaurantsFragment"
+        android:name="com.example.cityapp.RestaurantsFragment"
+        android:label="Restaurants"
+        tools:layout="@layout/fragment_restaurants" />
+
+    <fragment
+        android:id="@+id/parksFragment"
+        android:name="com.example.cityapp.ParksFragment"
+        android:label="Parks"
+        tools:layout="@layout/fragment_parks" />
+
+    <fragment
+        android:id="@+id/shoppingCentersFragment"
+        android:name="com.example.cityapp.ShoppingCentersFragment"
+        android:label="Shopping Centers"
+        tools:layout="@layout/fragment_shopping_centers" />
+</navigation>
