@@ -1,5 +1,0 @@
-package fragments
-
-
-class ParksFragment {
-}
