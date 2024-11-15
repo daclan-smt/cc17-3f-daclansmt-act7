@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">TaraTagaytay</string>
+    <string name="coffee_one">The Coffee Bean &amp; Tea Leaf</string>
+    <string name="coffee_two">Starbucks</string>
+    <string name="coffee_three">Barista Loft</string>
+    <string name="resto_four">Antonio’s Garden</string>
+    <string name="resto_five">Balay Dako</string>
+    <string name="resto_six">Sonya’s Secret Garden</string>
+    <string name="kidplace_seven">Sky Ranch</string>
+    <string name="kidplace_eight">Puzzle Mansion</string>
+    <string name="kidplace_nine">Museo Orlina</string>
+    <string name="park_ten">Picnic Grove</string>
+    <string name="park_eleven">People’s Park in the Sky</string>
+    <string name="park_twelve">Paradizoo</string>
+    <string name="shop_thirteen">Ayala Malls Serin</string>
+    <string name="shop_fourteen">Summit Ridge Promenade</string>
+    <string name="shop_fifteen">Mahogany Market</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="default_description">No description available</string>
+    <string name="desc_one">Located at Ayala Malls Serin,
+        \nthis spot offers a cozy atmosphere \nand a variety
+        of coffee and tea options.</string>
+    <string name="desc_two">With multiple branches in
+        Tagaytay, \nincluding Summit Ridge and Tagaytay-Calamba
+        Road, \nStarbucks provides great coffee \nwith scenic views.</string>
+    <string name="desc_three">A charming cafe known for its
+        Filipino \ndishes and coffee, situated at Croydon \nCenter Building.</string>
+    <string name="desc_four">A fine dining restaurant offering
+       \n a mix of international and Filipino \ncuisine in a beautiful
+        garden setting.</string>
+    <string name="desc_five">Known for its Filipino dishes and \nstunning views of Taal Lake.</string>
+    <string name="desc_six">A serene spot offering organic and \nhealthy
+        meals in a lush garden environment.</string>
+    <string name="desc_seven">An amusement park with various
+        \nrides and attractions, perfect \nfor a family day out.</string>
+    <string name="desc_eight">Home to a large collection of jigsaw
+        \npuzzles, this museum is both fun \nand educational for kids.</string>
+    <string name="desc_nine">A museum showcasing glass sculptures \nand other
+        artworks, \noffering a cultural experience for children.</string>
+    <string name="desc_ten">A popular spot for picnics with a great view
+        of Taal Lake, \noffering activities like horseback \nriding and ziplining.</string>
+    <string name="desc_eleven">Known for its panoramic views of Tagaytay
+        \nand Taal Lake, this park is a great place \nto relax and enjoy nature.</string>
+    <string name="desc_twelve">A theme farm that combines a zoo \nand a
+        botanical garden, providing \nan educational and fun experience.</string>
+    <string name="desc_thirteen">A convenient shopping destination
+        \nwith a variety of stores and dining options.</string>
+    <string name="desc_fourteen">Offers shopping, dining, and
+        entertainment \nwith a great view of Taal Lake.</string>
+    <string name="desc_fifteen">Famous for its fresh produce and local
+        delicacies, \nespecially the bulalo (beef shank soup).</string>
+</resources>
