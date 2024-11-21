@@ -27,9 +27,9 @@ class CategoriesFragment : Fragment(), CategoriesAdapter.OnItemClickListener {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        val rootView = inflater.inflate(R.layout.fragment_categories, container, false)
+        val rootView = inflater.inflate(R.layout.item_view, container, false)
 
-        // Initialize categories (make sure you have more than one category)
+        // Initialize categories
         categories = listOf(
             Category("Coffee Shops", R.drawable.coffee),
             Category("Restaurants", R.drawable.resto),
@@ -39,10 +39,12 @@ class CategoriesFragment : Fragment(), CategoriesAdapter.OnItemClickListener {
         )
 
         // Set up RecyclerView
-        recyclerView = rootView.findViewById(R.id.recycle_view_category)
+        recyclerView = rootView.findViewById(R.id.recycle_view)
         recyclerView.layoutManager = LinearLayoutManager(context)
-        adapter = CategoriesAdapter(categories, this)  // Pass the fragment as the listener
+        adapter = CategoriesAdapter(categories, this)
         recyclerView.adapter = adapter
+
+        // Define your spacing in pixels
 
         return rootView
     }
@@ -55,4 +57,3 @@ class CategoriesFragment : Fragment(), CategoriesAdapter.OnItemClickListener {
             .commit()
     }
 }
-

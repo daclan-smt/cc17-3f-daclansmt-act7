@@ -5,15 +5,14 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import com.example.taratagaytay.fragments.CategoriesFragment
 
-
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        // Load the CategoryFragment by default
+        // Load the CategoriesFragment by default using newInstance()
         if (savedInstanceState == null) {
-            loadFragment(CategoriesFragment())
+            loadFragment(CategoriesFragment.newInstance())
         }
     }
 

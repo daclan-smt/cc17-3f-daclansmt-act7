@@ -28,6 +28,7 @@ class RecommendationsAdapter(
     override fun onBindViewHolder(holder: RecommendationViewHolder, position: Int) {
         val recommendation = recommendations[position]
         holder.bind(recommendation)
+
     }
 
     override fun getItemCount(): Int = recommendations.size
