@@ -86,6 +86,17 @@ class RecommendationsFragment : Fragment(), RecommendationsAdapter.OnItemClickLi
 
     // Implement the onItemClick method from the interface
     override fun onItemClick(recommendation: Recommendation) {
-        // Handle item click
+        // Create a new instance of DetailsFragment with the recommendation data
+        val detailsFragment = DetailsFragment.newInstance(
+            recommendation.imageResId,
+            recommendation.title,
+            recommendation.description
+        )
+
+        // Replace the current fragment with DetailsFragment
+        parentFragmentManager.beginTransaction()
+            .replace(R.id.fragment_container, detailsFragment) // Make sure to use the correct container ID
+            .addToBackStack(null) // Optional: add to back stack to allow navigation back
+            .commit()
     }
 }

@@ -28,7 +28,7 @@
             <ImageView
                 android:id="@+id/recommendationImage"
                 android:layout_width="199dp"
-                android:layout_height="136dp"
+                android:layout_height="300dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"

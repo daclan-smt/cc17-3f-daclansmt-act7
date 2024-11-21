@@ -44,7 +44,6 @@ class CategoriesFragment : Fragment(), CategoriesAdapter.OnItemClickListener {
         adapter = CategoriesAdapter(categories, this)
         recyclerView.adapter = adapter
 
-        // Define your spacing in pixels
 
         return rootView
     }
